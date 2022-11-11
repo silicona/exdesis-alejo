@@ -27,7 +27,7 @@ Juego de Piedra Papel Tijera desarrollado para Exdesis, construida en Typescript
   - Se obtienen 3 puntos y un Robopunto por cada victoria
   - En caso de derrota, se pierde 1 punto y el roboitem queda destruido.
 
-#### Niveles de dificultad del juego
+### Niveles de dificultad del juego
 - Basic
   - El robot juega aleatoriamente una opcion
 - Evolutive
@@ -35,3 +35,6 @@ Juego de Piedra Papel Tijera desarrollado para Exdesis, construida en Typescript
 - Maverick
   - El robot tiene un bajo porcentaje de ganar haciendo trampas. De lo contrario, decide con el nivel anterior.
   - Se gana un punto extra en este nivel de dificultad, en ambas ligas.
+
+## Hall of fame
+Se incluye una relación de los jugadores registrados con su categoria y su puntuación en ambas ligas. Solo se permite limpiar la lista al usuario admin.
