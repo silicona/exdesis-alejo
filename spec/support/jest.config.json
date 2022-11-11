@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "rootDir": "../../",
+  "roots": ["spec", "dist/js"],
+  "setupFilesAfterEnv": ["@alex_neo/jest-expect-message"],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "runner": "groups",
+  "moduleDirectories": ["node_modules", "src/js", "dir/js"]
+}

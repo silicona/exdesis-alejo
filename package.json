@@ -1,0 +1,35 @@
+{
+  "name": "paper_game",
+  "version": "1.0.0",
+  "description": "Paper Stone Scissors game",
+  "main": "src/main.ts",
+  "scripts": {
+    "test_bdd": "./node_modules/.bin/cucumber-js -p default",
+    "test": "jest --config ./spec/support/jest.config.json",
+    "test:wip": "jest --group=wip --config ./spec/support/jest.config.json",
+    "test:old": "jest --watchAll",
+    "build": "npm run clean && tsc --project tsconfig.build.json && npm run build_assets",
+    "build_assets": "cp -f ./src/index.html ./dist/index.html && cp -R ./src/assets/ ./dist/assets/",
+    "clean": "rm -rf ./dist"
+  },
+  "author": "Nadie",
+  "license": "ISC",
+  "devDependencies": {
+    "@alex_neo/jest-expect-message": "^1.0.5",
+    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+    "@types/chai": "^4.3.4",
+    "@types/jest": "^27.0.1",
+    "@types/jquery": "^3.5.14",
+    "@types/selenium-webdriver": "^4.0.15",
+    "chai": "^4.3.7",
+    "cucumber-tsflow": "^4.0.0-preview.7",
+    "geckodriver": "^2.0.4",
+    "jest": "^27.0.6",
+    "jest-runner-groups": "^2.2.0",
+    "selenium-webdriver": "^4.0.0-rc-1",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
