@@ -2,6 +2,8 @@
 
 Juego de Piedra Papel Tijera desarrollado para Exdesis, construida en Typescript. Incluye suites basicas de TDD (jest) y BDD (Cucumber con Selenium) en la carpeta spec.
 
+Se puede jugar en este enlace: https://silicona.github.io
+
 ## Instrucciones
 
 - Introducir el nombre del usuario. 
